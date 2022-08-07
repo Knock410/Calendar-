@@ -3,3 +3,9 @@
     border-bottom: 10px solid black;
 
 }
+
+.timer-container{
+    text-align:center;
+    display:block; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
