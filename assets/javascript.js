@@ -60,7 +60,18 @@ saveButton.each(function(i) {
     });
 });
 
+//Find a way to check a if localStorage can be read on the page(truthy/falsey).Use If loop to loop through Event storage to retreieve the data.Have events displayed through whatever method to change the html 
 
+$('hour-9.description').val(localStorage.getItem(`Event #1`));
+localStorage.getItem(`Event #${i+1}`);
+localStorage.getItem(`Event #${i+1}`);
+localStorage.getItem(`Event #${i+1}`);
+localStorage.getItem(`Event #${i+1}`);
+localStorage.getItem(`Event #${i+1}`);
+localStorage.getItem(`Event #${i+1}`);
+localStorage.getItem(`Event #${i+1}`);
+
+console.log(localStorage.getItem(`Event #1`));
 //
 // saveButton.click(function(e){
 //     alert("Your JS script works"); 
