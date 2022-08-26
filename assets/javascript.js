@@ -63,13 +63,15 @@ saveButton.each(function(i) {
 //Find a way to check a if localStorage can be read on the page(truthy/falsey).Use If loop to loop through Event storage to retreieve the data.Have events displayed through whatever method to change the html 
 
 $('#hour-9 .description').val(localStorage.getItem(`Event #1`));
-localStorage.getItem(`Event #${i+1}`);
-localStorage.getItem(`Event #${i+1}`);
-localStorage.getItem(`Event #${i+1}`);
-localStorage.getItem(`Event #${i+1}`);
-localStorage.getItem(`Event #${i+1}`);
-localStorage.getItem(`Event #${i+1}`);
-localStorage.getItem(`Event #${i+1}`);
+$('#hour-10 .description').val(localStorage.getItem(`Event #2`));
+$('#hour-11 .description').val(localStorage.getItem(`Event #3`));
+$('#hour-12.description').val(localStorage.getItem(`Event #4`));
+$('#hour-13 .description').val(localStorage.getItem(`Event #5`));
+$('#hour-14 .description').val(localStorage.getItem(`Event #6`));
+$('#hour-15 .description').val(localStorage.getItem(`Event #10`));
+$('#hour-16 .description').val(localStorage.getItem(`Event #11`));
+$('#hour-17 .description').val(localStorage.getItem(`Event #12`));
+
 
 console.log(localStorage.getItem(`Event #1`));
 //
