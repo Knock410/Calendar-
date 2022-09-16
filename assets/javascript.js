@@ -42,16 +42,8 @@ for(var i=0; i < textAreas.length; i++ ){
 }
 
 
-// textAreas.each(function(i) {
-//  console.log($(this));
-//     var textArea = $(this)
-//     var thisBlockHour = textArea.getAttribute("data-hour");
-//    console.log(thisBlockHour);
-//    console.log(typeof(thisBlockHour));
-// } );
 
-
-
+//Local Storage 
 saveButton.each(function(i) {
     $(this).on("click", function() {
         let thisHourText = $(this).prev();
@@ -74,24 +66,8 @@ $('#hour-17 .description').val(localStorage.getItem(`Event #12`));
 
 
 console.log(localStorage.getItem(`Event #1`));
-//
-// saveButton.click(function(e){
-//     alert("Your JS script works"); 
-// });
 
 
 var block =document.getElementById('event-blocks');
 
 console.log(block);
-//  var loadTasks = function() {
-//     tasks = JSON.parse(localStorage.getItem("tasks"));
-  
-//     // if nothing in localStorage, create a new object to track all task status arrays
-//     if (!tasks) {
-//       tasks = {
-//         toDo: [],
-//         inProgress: [],
-//         inReview: [],
-//         done: []
-//       };
-//     }
